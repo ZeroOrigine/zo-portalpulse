@@ -1,4 +1,23 @@
 {
-  "present": false,
-  "_note": "Sentinel. The deploy layer overwrites this file per product with real birth data (name, tagline, born, scores, cost, funders, story_url). While present is false or name is absent, /about returns 404. This file MUST exist so the static import never breaks the build (zeroorigine.com ships the sentinel and gets no About page)."
+  "name": "PortalPulse",
+  "tagline": "One inbox for every GC portal deadline you're juggling.",
+  "description": "Subs forward GC portal notification emails to a dedicated address; an AI parser extracts deadlines (COI renewals, pay app windows, lien waiver requests) into one unified calendar across every GC, regardless of which portal each GC mandates.",
+  "born": "2026-07-17T17:21:50.415215+00:00",
+  "research_score": 7.05,
+  "ethics_verdict": "APPROVED",
+  "ethics_score": 8.3,
+  "ethics_concerns": [
+    "Email forwarding means handling potentially sensitive business correspondence and financial deadline data \u2014 requires clear data handling and retention transparency.",
+    "AI parsing errors on legal/financial deadlines (lien waivers, pay app windows) could have real consequences if users over-trust output."
+  ],
+  "qa_score": 171,
+  "qa_max": 185,
+  "true_cost": 54.32,
+  "calls": 51,
+  "funders": [
+    "the founder"
+  ],
+  "story_url": "https://zeroorigine.com/story/portalpulse",
+  "publisher": "ZeroOrigine",
+  "publisher_url": "https://zeroorigine.com"
 }
